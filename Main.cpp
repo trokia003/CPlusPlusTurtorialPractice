@@ -32,8 +32,22 @@ int main() {
    
    //multiple variables can be declared and instantiated in the same line
    int x, y = 2, z =-3;
-   char letter1 = 'c', letter2 = 'a'. letter3;
+   char letter1 = 'c', letter2 = 'a', letter3;
    
+   
+   //variables have three scopes in C++
+   /*
+   		1) Local Variables - declared inside a function
+   		2) Formal Parameters - variables declared as function parameters
+   		3) Global Variables - Declared outside of any function
+   */
+   
+   /*
+   		Local and Global variables can share the same name,
+   		however local variables will take precedence over global variables
+   */
+   
+   //note: gloabl variables are given an initial value automatically, local variables are not
    
    
    
