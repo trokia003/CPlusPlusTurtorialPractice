@@ -50,7 +50,16 @@ int main() {
    //note: gloabl variables are given an initial value automatically, local variables are not
    
    
-   
+   //constants
+   /*
+   When creating constants, there are two ways to declare a constant
+   		1) #define (pre-processor)
+   		2) const
+   	
+   	both of the above lines are valid ways to create a constant variable.
+   	
+   	note: it is common practice to declare constant variables with all capitals
+   */
    
    
    
