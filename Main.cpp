@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+#define CONSTANT1 10;
+
 // main() is where program execution begins.
 int main() {
    cout << "Hello World"; // prints Hello World
@@ -60,6 +62,12 @@ int main() {
    	
    	note: it is common practice to declare constant variables with all capitals
    */
+   
+   const int CONSTANT2 = 10;
+   const char CONSTANT3 = 'a';
+   
+   
+   
    
    
    
