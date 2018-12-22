@@ -5,7 +5,7 @@ using namespace std;
 
 // main() is where program execution begins.
 int main() {
-   cout << "Hello World"; // prints Hello World
+   cout << "Hello World" << endl; // prints Hello World
    
    
    /* This is a multi-line comment */
@@ -66,6 +66,24 @@ int main() {
    const int CONSTANT2 = 10;
    const char CONSTANT3 = 'a';
    
+   
+   /*
+   C++ allows for prefixes to be used as modifiers to a few variables types.
+   the variable types that have these prefixes are int, char, and double.
+   the prefixes (modifiers) are signed, unsigned, long, short.
+   if a prefix is not given a type, then it is defaulted to int.
+   */
+   
+   //long/short increase/decreases the number of bits alloted to a variable
+   //signed variables can have a negative numerical value, unsigned cannot
+   
+   short int shorty1;
+   short unsigned int shorty2;
+   
+   shorty2 = 60000;
+   shorty1 = shorty2;
+   
+   cout << shorty1 << " " << shorty2 << endl;
    
    
    
