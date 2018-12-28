@@ -83,7 +83,21 @@ int main() {
    shorty2 = 60000;
    shorty1 = shorty2;
    
-   cout << shorty1 << " " << shorty2 << endl;
+   cout << shorty1 << " " << shorty2 << endl << "I can put something after an endline command" << endl;
+   
+   
+   /*
+   there are a few different storage types -
+   		auto: default for local variables
+   		register: used to place local variables in a register instead of RAM (if possible) for quick access (such as for counters)
+   		static: can be used on a local variable to force the program not to destroy and recreate the same local variable over and over
+   			(essentially allowing a function to pick up where it left off at).
+   			Class variables can also be instantiated as static to make all objects of that class share the same variable
+   		extern: need more research
+   		mutable: explained more later in tutorial
+   */
+   
+   
    
    
    
