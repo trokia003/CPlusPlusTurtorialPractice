@@ -31,11 +31,15 @@ int main() {
    double fewDecimalPoints = 2.136;
    double manyDecimalPoints = 2.15647795486;
    
+   //---------------------------------------------------------------------------------
+   //---------------------------------------------------------------------------------
    
    //multiple variables can be declared and instantiated in the same line
    int x, y = 2, z =-3;
    char letter1 = 'c', letter2 = 'a', letter3;
    
+   //---------------------------------------------------------------------------------
+   //---------------------------------------------------------------------------------
    
    //variables have three scopes in C++
    /*
@@ -51,6 +55,8 @@ int main() {
    
    //note: gloabl variables are given an initial value automatically, local variables are not
    
+   //---------------------------------------------------------------------------------
+   //---------------------------------------------------------------------------------
    
    //constants
    /*
@@ -66,6 +72,8 @@ int main() {
    const int CONSTANT2 = 10;
    const char CONSTANT3 = 'a';
    
+   //---------------------------------------------------------------------------------
+   //---------------------------------------------------------------------------------
    
    /*
    C++ allows for prefixes to be used as modifiers to a few variables types.
@@ -85,6 +93,8 @@ int main() {
    
    cout << shorty1 << " " << shorty2 << endl << "I can put something after an endline command" << endl;
    
+   //---------------------------------------------------------------------------------
+   //---------------------------------------------------------------------------------
    
    /*
    there are a few different storage types -
@@ -97,8 +107,75 @@ int main() {
    		mutable: explained more later in tutorial
    */
    
+   //---------------------------------------------------------------------------------
+   //---------------------------------------------------------------------------------
    
+   /*
+   Operators
    
+   There are several types of operators in C++:
+   		Arithmetic
+   		Relational
+   		Logical
+   		Bitwise
+   		Assignment
+   		Miscellaneous
+   	
+   	Arithmetic Operators
+   		+ : adds two operands
+   		- : subtracts second operand from the first operand
+   		* : multiplies the two operands
+   		/ : divides the first operand by the second
+   		% : divides first operand by second operand and gives remainder
+   		++ : increments operand
+   		-- : decrements operand
+	
+	Relational Operators
+		== : checks if the two operands are equal
+		!= : checks if the two operands are not equal
+		> : checks if the first operand is greater than the first operand
+		< : checks if the first operand is less than the second operand
+		>= : checks if the first operand is greater than or equal to the second operand
+		<= : checks if the first operand is less than or equal to the second operand
+	
+	Logical Operators
+		&& : if both operands are non-zero, true
+		|| : if one of the operands non-zero, true
+		! : logical not (logical Negation) operator
+	
+	Bitwise Operators
+		& : ANDs the bits of two operands
+		| : ORs the bits of two operands
+		^ : Exlusive OR on the bits of the two operands
+		` : logical negation on bits of the operand
+	
+	Assignment Operators
+		= : assign value of right operand to left operand
+		+= : add value of right operand to left operand and assign result to left operand
+		-= : subtract value of right operand from left operand and then assign result to left operand
+		*= : multiply value of left and right operand and assign result to left operand
+		/= : divide left operand by value of right operand and assign result to left operand
+		%= : perform modulus of right operand on left operand and assign result to left operand
+		<<= : left shift left operand by value of right operand and assign result to left operand
+		>>= : right shift left operand by value of right operand and assign result to left operand
+		&= : AND the bits of the left operand with the bits of the right operand and assign the result to the left operand
+		^= : Exclusive Or the bits of the left operand with the bits of the right operand and assign the result to the left operand
+		|= : OR the bits of the left operand with the bits of the right operand and assign the result to the left operand
+	
+	
+	
+	
+	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   */
    
    
    
