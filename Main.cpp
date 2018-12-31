@@ -162,7 +162,15 @@ int main() {
 		^= : Exclusive Or the bits of the left operand with the bits of the right operand and assign the result to the left operand
 		|= : OR the bits of the left operand with the bits of the right operand and assign the result to the left operand
 	
-	
+	Miscellaneous Operators
+		sizeof : returns the number of bytes a variable occupies
+		Condition ? X : Y    :    if Condition is true, return X, else return Y (ternary operator)
+		, : separates multiple operations
+		.  and  -> : used to reference individual members of classes, structures, and unions
+		cast [such as int(23.75)] : convert one data type to another
+		& : returns the address of a variable (&a will return the physical memory address of the variable 'a')
+		* : pointer (gives the value of a variable given a memory address)
+		
 	
 	
 	
