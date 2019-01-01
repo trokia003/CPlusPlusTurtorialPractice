@@ -170,10 +170,35 @@ int main() {
 		cast [such as int(23.75)] : convert one data type to another
 		& : returns the address of a variable (&a will return the physical memory address of the variable 'a')
 		* : pointer (gives the value of a variable given a memory address)
-		
 	
+	//---------------------------------------------------------------------------------
+   	//---------------------------------------------------------------------------------
+   
+	/*
+	There are three kinds of loops in C++
+		While Loop : repeats a group of statements while a given condition holds true
+		For Loop : repeats a group of statements for a set number of times
+		Do While Loop : repeats a group of statements while a given condition holds true, and it is guaranteed that the loop will run at least one time
+	*/
 	
+	//while loop example
+	int whileLoopSentinel = 0;
 	
+	while (whileLoopSentinel < 10){
+		cout << "The value of 'whileLoopSentinel' is " << whileLoopSentinel << endl;
+		whileLoopSentinel++;
+	}
+	
+	//for loop example
+	for(int forLoopCounter = 10; forLoopCounter < 20; forLoopCounter++){
+		cout << "The value of 'forLoopCounter' is " << forLoopCounter << endl;
+	}
+   	
+   	/*
+	There are also statements for controlling loops
+		Break : stops the current loop
+		Continue : ends the current iteration and moves onto the next iteration of the loop
+	*/
    	
    	
    	
@@ -181,9 +206,7 @@ int main() {
    	
    	
    	
-   	
-   	
-   */
+   
    
    
    
