@@ -200,9 +200,17 @@ int main() {
 		Continue : ends the current iteration and moves onto the next iteration of the loop
 	*/
    	
+   	//---------------------------------------------------------------------------------
+   	//---------------------------------------------------------------------------------
    	
-   	
-   	
+   	/*
+	In C++ there are decision-making statements
+		If statement : checks in the condition is true, if so executes a segment of code
+		If... else statement : sequentially checks each conditonal statement until a true statement is found (if any) and executes the statements for that condition
+		switch statement : allows a value to be tested against a list of conditions and executes the statements for any condition that is true
+		
+		these statements can also be nested within one another
+	*/
    	
    	
    	
