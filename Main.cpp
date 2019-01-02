@@ -212,8 +212,20 @@ int main() {
 		these statements can also be nested within one another
 	*/
    	
+   	//---------------------------------------------------------------------------------
+   	//---------------------------------------------------------------------------------
    	
-   	
+   	/*
+	Functions have a declaration and definition
+	
+	functions must be declared at the start of the class and are defined later in the class.
+	When a function is declared, the return type will be given before the name of the function, such as int max(first number, second number) or boolean checkIsEven(number)
+	
+	The parameters given can also be declared as just normal variables or as pointers.
+	using normal variables means that the function execution will not change the value of the arguments used in that function call (call by value).
+	however, if it is desired to change the value of the arguments, pointers can be used (call by pointer)
+	*/
+   
    
    
    
