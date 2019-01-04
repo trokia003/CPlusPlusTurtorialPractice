@@ -226,12 +226,82 @@ int main() {
 	however, if it is desired to change the value of the arguments, pointers can be used (call by pointer)
 	*/
    
-   
-   
-   
-   
-   
-   
-   
+   	//---------------------------------------------------------------------------------
+   	//---------------------------------------------------------------------------------
+   	
+   	/*
+	When using numbers and mathematics in c++ many built-in operations can be used once <cmath> is imported.
+	These operations include cosine, sine, square root, log, rounding, generating random numbers, etc..
+	*/
+	
+	//---------------------------------------------------------------------------------
+   	//---------------------------------------------------------------------------------
+   	
+   	/*
+	Arrays allow for us to create a group of variables that are all of the same type.
+	
+	for example, an integer array can be made like this - int balance[100]; 
+	this creates an array of size 100, where each position (or index) can hold a different integer value
+	
+	Arrays can be multidimensional - int balance[100][100][100];
+	this would be a 3-d cube with a total volume of 1,000,000 or in other words there are 1,000,000 unique integer values that can be stored in this multidimensional array
+	
+	the identifier of an array is actually a pointer to the first element of that array.
+	*/
+   	
+   	//---------------------------------------------------------------------------------
+   	//---------------------------------------------------------------------------------
+   	
+   	/*
+	   Strings can be made as either as a char array (as in C) or using the built-in string class in C++
+	   
+	   there are several built-in methods for using and altering both kinds of strings
+	   */
+   	
+   	//---------------------------------------------------------------------------------
+   	//---------------------------------------------------------------------------------
+   	
+   	/*
+	   
+	   */
+   	
+   	
+   	
+   	
+   	
+   	//---------------------------------------------------------------------------------
+   	//---------------------------------------------------------------------------------
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	//---------------------------------------------------------------------------------
+   	//---------------------------------------------------------------------------------
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	//---------------------------------------------------------------------------------
+   	//---------------------------------------------------------------------------------
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	//---------------------------------------------------------------------------------
+   	//---------------------------------------------------------------------------------
+   	
+   	
+   	
+   	
    return 0;
 }
