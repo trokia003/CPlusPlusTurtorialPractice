@@ -257,15 +257,26 @@ int main() {
 	   
 	   there are several built-in methods for using and altering both kinds of strings
 	   */
+	   
+	   char charStringExample[] = {'H', 'e', 'l', 'l', 'o', '\0'};
+	   cout << charStringExample << endl;
+	   string stringExample = "World";
+	   cout << stringExample << endl;
    	
    	//---------------------------------------------------------------------------------
    	//---------------------------------------------------------------------------------
    	
    	/*
+	   Pointers are variables that hold the address of another variable (that is to say - the address to the variable's location in memory)
 	   
+	   Pointers are useful for situations where normal variables simply aren't enough to perform a task, such as passing a variable by reference
+	   
+	   note: pointers are created, and their values accessed, using the unary operator '*' and address of variables can be access by the unary operator '&'
 	   */
    	
-   	
+   	int pointerInt = 12345;
+   	int *pointerIntExample = &pointerInt;
+   	cout << "the value of the integer at address " << pointerIntExample << " is " << *pointerIntExample << endl;
    	
    	
    	
