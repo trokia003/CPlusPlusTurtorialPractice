@@ -283,20 +283,25 @@ int main() {
    	//---------------------------------------------------------------------------------
    	//---------------------------------------------------------------------------------
    	
+   	/*
+	   References allow us to create variables that can be called in place of the original.
+	   
+	   This is particularly useful for calling functions by reference.
+	   
+	   keep in mind, references must be initialized when created, must refer to a variable that is NOT null, and cannot be changed once created
+	   */
    	
-   	
-   	
-   	
-   	
+   	char referenceChar = 'C';
+   	char& referenceCharExample = referenceChar;
+   	cout << referenceChar << referenceCharExample << endl;
    	
    	//---------------------------------------------------------------------------------
    	//---------------------------------------------------------------------------------
    	
-   	
-   	
-   	
-   	
-   	
+   	/*
+	   in C++, to utilize time you must include the <ctime> header.
+	   C++ does not define its own time objects or types, it inherits the structs and formats from C
+	   */
    	
    	//---------------------------------------------------------------------------------
    	//---------------------------------------------------------------------------------
