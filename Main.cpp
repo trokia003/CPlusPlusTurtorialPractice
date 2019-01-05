@@ -306,17 +306,21 @@ int main() {
    	//---------------------------------------------------------------------------------
    	//---------------------------------------------------------------------------------
    	
-   	
-   	
-   	
-   	
-   	
-   	
+   	/*
+	   C++ utilizies the iostream import to allow input and output of data
+	   
+	   basic terminology: << - stream insertion operator, >> - stream extraction operator
+	   */
    	
    	//---------------------------------------------------------------------------------
    	//---------------------------------------------------------------------------------
    	
-   	
+   	/*
+	   structs are a means by which we can define our own data types.
+	   We can combine the basic data types in these structs as needed.
+	   
+	   Essentially structs are used as records
+	   */
    	
    	
    return 0;
