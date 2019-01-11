@@ -333,6 +333,13 @@ int main() {
 
 	Account account1("Savings1", 1032387, 2005.67);
 
+	account1.depositAmount(account1.getBalanceReference(), 994.33);
+	cout << "Current Balance of Account 1 is " << account1.getAccountBalance() << endl;
+
+	account1.withdrawAmount(account1.getBalancePointer(), 1000.00);
+	cout << "Current Balance of Account 1 is " << account1.getAccountBalance() << endl;
+
+	cout << "The current Balance of Account " << account1.getAccountNumber() << " under the name of " << account1.getAccountName() << " is " << account1.getAccountBalance() << endl;
 
 	return 0;
 }

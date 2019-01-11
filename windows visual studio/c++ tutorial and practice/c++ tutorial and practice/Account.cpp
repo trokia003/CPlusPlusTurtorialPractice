@@ -16,8 +16,6 @@ std::string Account::getAccountName() {
 	return accountName;
 }
 
-//private functions
-
 //return the account number
 int Account::getAccountNumber() {
 	return accountNumber;
@@ -29,11 +27,20 @@ double Account::getAccountBalance() {
 }
 
 //subtract the given amount from the account
-void Account::withdrawAmount(int *currentAB, double withdrawalAmount) {
+void Account::withdrawAmount(double *currentAB, double withdrawalAmount) {
 	*currentAB -= withdrawalAmount;
 }
 
 //add the given amount to the account
-void Account::depositAmount(int& currentAB, double depositAmount) {
+void Account::depositAmount(double& currentAB, double depositAmount) {
 	currentAB += depositAmount;
+}
+
+//returns the account balance variable as a reference
+double& Account::getBalanceReference() {
+	return accountBalance;
+}
+
+double * Account::getBalancePointer() {
+	return &accountBalance;
 }
