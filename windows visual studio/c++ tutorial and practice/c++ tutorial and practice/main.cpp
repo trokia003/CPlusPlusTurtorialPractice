@@ -4,6 +4,8 @@
 
 //importing other classes
 #include "Account.h"
+#include "Shape.h"
+#include "Rectangle.h"
 
 using namespace std;
 
@@ -340,6 +342,17 @@ int main() {
 	cout << "Current Balance of Account 1 is " << account1.getAccountBalance() << endl;
 
 	cout << "The current Balance of Account " << account1.getAccountNumber() << " under the name of " << account1.getAccountName() << " is " << account1.getAccountBalance() << endl;
+
+	//now working on inheritance
+	Shape shape1(5, 5);
+	Rectangle rectangle1(5, 10);
+
+	cout << shape1.getDefinition() << endl;
+	cout << rectangle1.getDefinition() << endl;
+	cout << rectangle1.getRectDefinition() << endl;
+
+	shape1.printArea();
+	rectangle1.printArea();
 
 	return 0;
 }
