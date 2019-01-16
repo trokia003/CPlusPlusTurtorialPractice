@@ -20,3 +20,30 @@ void Shape::printArea() {
 std::string Shape::getDefinition() {
 	return definition;
 }
+
+int Shape::getWidth() {
+	return width;
+}
+
+int Shape::getHeight() {
+	return height;
+}
+
+void Shape::resizeDimensions() {
+	width = 10;
+	height = 10;
+}
+
+void Shape::resizeDimensions(int w, int h) {
+	width = w;
+	height = h;
+}
+
+//overloading the addition operator
+Shape Shape::operator+(const Shape& otherShape) {
+	Shape newShape(0, 0);
+
+	newShape.resizeDimensions(width + otherShape.width, height + otherShape.height);
+
+	return newShape;
+}

@@ -11,6 +11,11 @@ public:
 	void printArea();
 	std::string getDefinition();
 	Shape(int w, int h);
+	void resizeDimensions();
+	void resizeDimensions(int w, int h);
+	int getWidth();
+	int getHeight();
+	Shape operator+(const Shape& otherShape);
 
 private:
 	std::string definition;

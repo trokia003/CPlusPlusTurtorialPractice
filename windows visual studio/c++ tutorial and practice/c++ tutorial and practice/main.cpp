@@ -354,5 +354,28 @@ int main() {
 	shape1.printArea();
 	rectangle1.printArea();
 
+	//show the use of overloaded method "resizeDimensions()"
+	rectangle1.resizeDimensions();
+	rectangle1.printArea();
+
+	rectangle1.resizeDimensions(5, 6);
+	rectangle1.printArea();
+
+	//show operator overloading
+	Shape shape2(2, 4);
+	Shape shape3(0, 0);
+	
+	shape3 = shape1 + shape2;
+	shape3.printArea();
+
+
+
+
+
+
+
+
+
+
 	return 0;
 }
