@@ -10,6 +10,7 @@ class Rectangle : public Shape {
 public:
 	Rectangle(int w, int h);
 	std::string getRectDefinition();
+	std::string sideLengths();
 
 private:
 	std::string definition;

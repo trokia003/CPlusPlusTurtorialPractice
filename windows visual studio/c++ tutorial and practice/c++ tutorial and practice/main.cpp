@@ -368,9 +368,18 @@ int main() {
 	shape3 = shape1 + shape2;
 	shape3.printArea();
 
+	//polymorphism
+	Shape *pShape;
+	Shape polyShape(2, 4);
+	Rectangle polyRectangle(5, 7);
 
+	//set address of pointer to shape and use sideLengths()
+	pShape = &polyShape;
+	cout << pShape->sideLengths() << endl;
 
-
+	//set address of pointer to rectangle and use sideLengths()
+	pShape = &polyRectangle;
+	cout << pShape->sideLengths() << endl;
 
 
 

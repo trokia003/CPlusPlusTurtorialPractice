@@ -15,7 +15,12 @@ public:
 	void resizeDimensions(int w, int h);
 	int getWidth();
 	int getHeight();
+
+	//operator overloading
 	Shape operator+(const Shape& otherShape);
+
+	//virtual method
+	virtual std::string sideLengths();
 
 private:
 	std::string definition;

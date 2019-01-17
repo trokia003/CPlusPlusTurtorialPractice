@@ -47,3 +47,9 @@ Shape Shape::operator+(const Shape& otherShape) {
 
 	return newShape;
 }
+
+std::string Shape::sideLengths() {
+	std::string string1 = "The Shape's width is " + std::to_string(width);
+	std::string string2 = ", and the Shape's height is " + std::to_string(height);
+	return string1 + string2;
+}
