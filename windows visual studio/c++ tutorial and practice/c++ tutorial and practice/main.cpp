@@ -1,5 +1,6 @@
 //imports from STD
 #include <iostream>
+#include <fstream>
 #include <string>
 
 //importing other classes
@@ -380,11 +381,26 @@ int main() {
 	//set address of pointer to rectangle and use sideLengths()
 	pShape = &polyRectangle;
 	cout << pShape->sideLengths() << endl;
+	
+	//--------------------------------------------------
+	//--------------------------------------------------
 
+	ofstream myOutputStream; //creating output stream object
+	myOutputStream.open("example.txt", ios::out | ios::trunc); //using the stream object to open a file and output to it
 
+	//output text to the file
+	myOutputStream << "example text added to the file." << endl;
+	myOutputStream.close();
 
+	ifstream myInputStream; //create input stream
+	myInputStream.open("example.txt", ios::in);
 
+	//pull the text from the file and output
+	string myData;
+	myInputStream >> myData;
+	cout << myData << endl;
 
+	myInputStream.close();
 
 	return 0;
 }

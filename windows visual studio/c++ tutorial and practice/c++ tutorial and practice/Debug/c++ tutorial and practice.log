@@ -1,2 +1,4 @@
-﻿  Shape.cpp
+﻿  main.cpp
+c:\users\owner\documents\github\cplusplusturtorialpractice\windows visual studio\c++ tutorial and practice\c++ tutorial and practice\main.cpp(48): warning C4101: 'letter3': unreferenced local variable
+c:\users\owner\documents\github\cplusplusturtorialpractice\windows visual studio\c++ tutorial and practice\c++ tutorial and practice\main.cpp(47): warning C4101: 'x': unreferenced local variable
   c++ tutorial and practice.vcxproj -> C:\Users\Owner\Documents\GitHub\CPlusPlusTurtorialPractice\windows visual studio\c++ tutorial and practice\Debug\c++ tutorial and practice.exe
